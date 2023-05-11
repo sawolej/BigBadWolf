@@ -60,7 +60,7 @@ namespace wolf
 
             Debug.WriteLine($"change the pos of {rabbit.Name} with {velocityX} {velocityY} {velocityZ}.");
             Random r = new Random();
-            int rInt = r.Next(1, 10);
+            int rInt = r.Next(100, 1000);
             Thread.Sleep(rInt);
         }
 
